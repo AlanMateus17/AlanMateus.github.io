@@ -1,0 +1,1 @@
+Coloque aqui imagens locais se quiser usar no lugar das URLs públicas.

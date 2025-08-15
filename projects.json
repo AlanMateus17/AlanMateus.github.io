@@ -1,0 +1,34 @@
+[
+  {
+    "name": "AMTech Multilojas",
+    "slug": "amtech-multilojas",
+    "repo": "https://github.com/AlanMateus17/AMTech-Multilojas",
+    "stack": [
+      "Python",
+      "Node.js",
+      "PostgreSQL",
+      "Redis"
+    ]
+  },
+  {
+    "name": "AMTech Ride",
+    "slug": "amtech-ride",
+    "repo": "https://github.com/AlanMateus17/AMTech-Ride",
+    "stack": [
+      "Kotlin",
+      "Node.js",
+      "MongoDB",
+      "Kafka"
+    ]
+  },
+  {
+    "name": "AMTech Fin",
+    "slug": "amtech-fin",
+    "repo": "https://github.com/AlanMateus17/AMTech-Fin",
+    "stack": [
+      "Python",
+      "Django",
+      "React"
+    ]
+  }
+]

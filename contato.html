@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="pt-br"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contato • Alan Souza</title><link rel="stylesheet" href="./assets/css/style.css"></head>
+<body>
+<header class="topbar"><div class="row"><div class="brand"><a href="./index.html" class="btn secondary">← Voltar</a> <span style="margin-left:8px">Contato</span></div></div></header>
+<main class="wrap">
+  <section class="section grid cols-2">
+    <form class="card p24" method="GET" action="mailto:alandedesouzasilva04@gmail.com">
+      <h1>Fale comigo</h1>
+      <p class="meta">Preencha e seu cliente de e-mail abrirá com as informações.</p>
+      <label>Nome<br><input name="subject" placeholder="Seu nome" style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--line);background:transparent;color:var(--text)"/></label><br><br>
+      <label>Mensagem<br><textarea name="body" rows="6" placeholder="Sua mensagem" style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--line);background:transparent;color:var(--text)"></textarea></label><br><br>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+    <div class="card p24">
+      <h2>Outros canais</h2>
+      <ul class="list">
+        <li>Email: <a href="mailto:alandedesouzasilva04@gmail.com">alandedesouzasilva04@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/AlanMateus17" target="_blank">github.com/AlanMateus17</a></li>
+        <li>LinkedIn: <a href="#" target="_blank">linkedin.com/in/AlanSouza</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> • Alan Souza</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>

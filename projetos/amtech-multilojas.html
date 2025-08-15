@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AMTech Multilojas • Projeto</title><link rel="stylesheet" href="../assets/css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script></head>
+<body>
+<header class="topbar"><div class="row"><div class="brand"><a href="../index.html" class="btn secondary">← Portfólio</a> <span style="margin-left:8px">AMTech Multilojas</span></div></div></header>
+<main class="wrap">
+  <section class="section card p24">
+    <h1>AMTech Multilojas</h1>
+    <p class="meta">SaaS de multilojas com dropshipping, automações e painéis em tempo real.</p>
+    <div class="tags"><span class="tag">Python</span><span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">Redis</span></div>
+    <div class="cta" style="margin-top:10px"><a class="btn" target="_blank" href="https://github.com/AlanMateus17/AMTech-Multilojas">Ver repositório</a></div>
+  </section>
+  <section class="section grid cols-2">
+    <div class="card p24"><h2>Vídeo</h2><div class="card p24" style="text-align:center">Adicione aqui um vídeo (YouTube ou MP4).</div></div>
+    <div class="card p24"><h2>Gráficos</h2><canvas id="chart1" height="180"></canvas></div>
+  </section>
+  <section class="section grid cols-2">
+    <div class="card p24"><h2>Principais funcionalidades</h2><ul class="list"><li>Autenticação e autorização robustas</li><li>Integração com APIs e webhooks</li><li>Observabilidade (logs, métricas, tracing)</li><li>Testes automatizados e CI/CD</li></ul></div>
+    <div class="card p24"><h2>Por que é relevante para recrutadores</h2><ul class="list"><li>Domínio de arquitetura limpa e padrões</li><li>Decisões técnicas e trade-offs documentados</li><li>Métricas de performance e escalabilidade</li><li>Demonstração em vídeo e documentação clara</li></ul></div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> • Alan Souza</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear(); const ctx=document.getElementById('chart1'); if(ctx) new Chart(ctx, {type:'line', data:{labels:['Jan','Fev','Mar','Abr','Mai','Jun'], datasets:[{label:'Latência (ms)', data:[120,95,80,78,70,65]}]}, options:{responsive:true, maintainAspectRatio:false} });</script>
+</body></html>
